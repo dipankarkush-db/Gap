@@ -1,4 +1,4 @@
-This tool uses the [ai_query] (#https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_query) function.
+This tool uses the [ai_query](#https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_query) function.
 
 There are two parts to it - Generator notebook and Importer notebook
 
