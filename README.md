@@ -1,13 +1,32 @@
-This tool uses the [ai_query](#https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_query) function.
+AI-Driven Table & Column Commenting Tool
 
-There are two parts to it - Generator notebook and Importer notebook
+This tool leverages the ai_query
+ function to automate the generation and application of comments on tables and columns in Unity Catalog.
 
-The generator uses the ai_query function to generate the comments for the selected tables and columns in the schema within a catalog. The generated comments are saved in the Unity Catalog (UC) Volume in JSON format
+Overview
 
-The importer then reads the comments from the UC volume and applies the comments to the respective tables and columns
+The solution consists of two main components:
 
-The example is loaded as a DBC archive in this public git repository
+Generator Notebook
 
-There are four notebooks, organized into two sets, with each set containing a generator and an importer.
+Uses the ai_query function to generate comments for selected tables and columns within a schema in a catalog.
 
-This is a field-generated solution. Hence, we need to set the expectations that there could potentially be issues, as this is only tested for specific customer use cases.
+Saves the generated comments in JSON format to a Unity Catalog (UC) Volume.
+
+Importer Notebook
+
+Reads the generated comments from the UC Volume.
+
+Applies the comments to the respective tables and columns in the catalog.
+
+Structure
+
+The example is provided as a DBC archive in this public Git repository.
+
+There are four notebooks, organized into two sets, with each set containing a generator and an importer notebook.
+
+Important Notes
+
+This is a field-generated solution, tested for specific customer use cases.
+
+Users should be aware that there may be potential issues or limitations in other environments.
