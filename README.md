@@ -1,4 +1,4 @@
-# AI-Driven Table & Column Commenting Tool
+# AI-generated Table & Column Comment generation in bulk
 
 This tool uses the [ai_query](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_query) function to automate the generation and application of comments on tables and columns in Unity Catalog.
 
