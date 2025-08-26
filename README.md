@@ -1,7 +1,7 @@
 This tool uses the ai_query function.
 There are two parts to it
-* Generator notebook
-* Importer notebook
+  * Generator notebook
+  * Importer notebook
 The generator uses the ai_query function to generate the comments for the selected tables and columns in the schema within a catalog. The generated comments are saved in the Unity Catalog (UC) Volume in JSON format
 The importer then reads the comments from the UC volume and applies the comments to the respective tables and columns
 The example is loaded as a DBC archive in this public git repository
