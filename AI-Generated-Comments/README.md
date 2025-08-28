@@ -16,12 +16,13 @@ The solution consists of **two main components**:
 
 ## Structure
 
-- Provided as a **DBC archive** in this public Git repository.  
-- Contains **four notebooks**, organized into **two sets**, each with a generator and an importer.
+- Notebooks are organized in table and column sub folders
+- Contains **four notebooks**, organized into **two sets**, one for table and the other one for column, each with a generator and an importer.
 
 ## Notes
 
 - This is a **field-generated solution**, tested on specific customer use cases.  
 - Potential issues may exist when used in other environments.
 - This was tested using Databrciks Serverless notebooks
+- Databricks foundation model serving endpoint - databricks-meta-llama-3-3-70b-instruct - was used for testing
 - Databricks [Foundation Models](https://learn.microsoft.com/en-us/azure/databricks/machine-learning/model-serving/score-foundation-models#-foundation-model-types) have been used for this purpose. Users can compare different model-generated texts and decide on their choice of model-serving endpoint. They need to be mindful of the [supported regions](https://learn.microsoft.com/en-us/azure/databricks/machine-learning/model-serving/foundation-model-overview#-foundation-models-hosted-on-databricks) for the model serving endpoint.
